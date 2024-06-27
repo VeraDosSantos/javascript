@@ -10,7 +10,7 @@ let futur = 3;
 let resultat = annee + futur ;
 console.log(resultat);
 
-document.write("<p>"+ annee + " + " + futur + " = " + resultat + "</p>");
+document.write("<p>" + annee + " + " + futur + " = " + resultat + "</p>");
 
 let mois = "7";
 let calcul = annee + mois;
