@@ -36,3 +36,22 @@ j'ai 1000€ sur mon compte
 chaque mois j'ajoute 50€
 combien de temps me faut-il pour avoir 2000€ sur mon compte ?
 -------------------------------- */
+
+let monCompte = 1000;
+let temps = 0;
+while(monCompte < 2000) {
+
+    monCompte += 50;
+    temps++;
+}
+document.write("<h3>Sous sur mon compte : " + monCompte + "</h3>");
+document.write("<h3>Jusqu'à 2000€, il me faut : " + temps + " mois</h3>");
+// document.write("<h3>Jusqu'à 2000€, il me faut : " + (mois) + " mois</h3>");
+
+// avec une boucle FOR
+let tps = 0;
+for (var mesSous = 1000; mesSous < 2000 ; mesSous += 50) {
+    document.write("<h3>Le mois suivant j'ai : " + mesSous + "</h3>");
+    tps++;
+}
+document.write("<h3>Il aura fallu " + tps + " mois.</h3>");
